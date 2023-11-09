@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.recipe {
+    margin-bottom: 40px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+
+.recipe .content {
+    padding: 20px;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.recipe p, .recipe li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.recipe h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.recipe ul, .recipe ol {
+    padding-left: 20px;
+}
+
+.recipe ol {
+    list-style-type: decimal;
+}
+
+
+/* Estilos para el menú de navegación */
+header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ecf0f1;
+}
+
+
+#contacto {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contacto h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+#contacto form {
+    margin-top: 20px;
+}
+
+#contacto input[type="text"],
+#contacto input[type="email"],
+#contacto textarea {
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contacto input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#contacto input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#inicio{
+    text-align: center;
+    padding: 10%;
+    font-size:  20px;
+}
